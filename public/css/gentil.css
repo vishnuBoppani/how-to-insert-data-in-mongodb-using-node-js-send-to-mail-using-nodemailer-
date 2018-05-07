@@ -1,0 +1,744 @@
+
+
+@font-face {
+    font-family: 'Acme-Regular';
+    src: url('../fonts/Acme-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('../fonts/Comfortaa-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url('../fonts/JosefinSans-Bold.ttf') format('truetype'), url('../fonts/JosefinSans-BoldItalic.ttf') format('truetype'), url('../fonts/JosefinSans-Italic.ttf') format('truetype'), url('../fonts/JosefinSans-Light.ttf') format('truetype'), url('../fonts/JosefinSans-LightItalic.ttf') format('truetype'), url('../fonts/JosefinSans-Regular.ttf') format('truetype'), url('../fonts/JosefinSans-SemiBold.ttf') format('truetype'), url('../fonts/JosefinSans-SemiBoldItalic.ttf') format('truetype'), url('../fonts/JosefinSans-Thin.ttf') format('truetype'), url('../fonts/JosefinSans-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url('../fonts/Nunito-Black.ttf') format('truetype'), url('../fonts/Nunito-BlackItalic.ttf') format('truetype'), url('../fonts/Nunito-Bold.ttf') format('truetype'), url('../fonts/Nunito-BoldItalic.ttf') format('truetype'), url('../fonts/Nunito-ExtraBold.ttf') format('truetype'), url('../fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'), url('../fonts/Nunito-ExtraLight.ttf') format('truetype'), url('../fonts/Nunito-ExtraLightItalic.ttf') format('truetype'), url('../fonts/Nunito-Italic.ttf') format('truetype'), url('../fonts/Nunito-Light.ttf') format('truetype'), url('../fonts/Nunito-LightItalic.ttf') format('truetype'), url('../fonts/Nunito-Regular.ttf') format('truetype'), url('../fonts/Nunito-SemiBold.ttf') format('truetype'), url('../fonts/Nunito-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oxygen-Bold';
+    src: url('../fonts/Oxygen-Bold.ttf') format('truetype'), url('../fonts/Oxygen-Light.ttf') format('truetype'), url('../fonts/Oxygen-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('../fonts/Pacifico-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../fonts/Poppins-Black.ttf') format('truetype'), url('../fonts/Poppins-BlackItalic.ttf') format('truetype'), url('../fonts/Poppins-Bold.ttf') format('truetype'), url('../fonts/Poppins-BoldItalic.ttf') format('truetype'), url('../fonts/Poppins-ExtraBold.ttf') format('truetype'), url('../fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'), url('../fonts/Poppins-ExtraLight.ttf') format('truetype'), url('../fonts/Poppins-ExtraLightItalic.ttf') format('truetype'), url('../fonts/Poppins-Italic.ttf') format('truetype'), url('../fonts/Poppins-Light.ttf') format('truetype'), url('../fonts/Poppins-LightItalic.ttf') format('truetype'), url('../fonts/Poppins-Medium.ttf') format('truetype'), url('../fonts/Poppins-MediumItalic.ttf') format('truetype'), url('../fonts/Poppins-Regular.ttf') format('truetype'), url('../fonts/Poppins-SemiBold.ttf') format('truetype'), url('../fonts/Poppins-SemiBoldItalic.ttf') format('truetype'), url('../fonts/Poppins-Thin.ttf') format('truetype'), url('../fonts/Poppins-ThinItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('../fonts/Rubik-Black.ttf') format('truetype'), url('../fonts/Rubik-BlackItalic.ttf') format('truetype'), url('../fonts/Rubik-Bold.ttf') format('truetype'), url('../fonts/Rubik-BoldItalic.ttf') format('truetype'), url('../fonts/Rubik-Italic.ttf') format('truetype'), url('../fonts/Rubik-Light.ttf') format('truetype'), url('../fonts/Rubik-LightItalic.ttf') format('truetype'), url('../fonts/Rubik-Medium.ttf') format('truetype'), url('../fonts/Rubik-MediumItalic.ttf') format('truetype'), url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Signika-Bold';
+    src: url('../fonts/Signika-Bold.ttf') format('truetype'), url('../fonts/Signika-Light.ttf') format('truetype'), url('../fonts/Signika-Regular.ttf') format('truetype'), url('../fonts/Signika-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro-Black';
+    src: url('../fonts/SourceSansPro-Black.ttf') format('truetype'), url('../fonts/SourceSansPro-BlackItalic.ttf') format('truetype'), url('../fonts/SourceSansPro-Bold.ttf') format('truetype'), url('../fonts/SourceSansPro-BoldItalic.ttf') format('truetype'), url('../fonts/SourceSansPro-ExtraLight.ttf') format('truetype'), url('../fonts/SourceSansPro-ExtraLightItalic.ttf') format('truetype'), url('../fonts/SourceSansPro-Italic.ttf') format('truetype'), url('../fonts/SourceSansPro-Light.ttf') format('truetype'), url('../fonts/SourceSansPro-LightItalic.ttf') format('truetype'), url('../fonts/SourceSansPro-Regular.ttf') format('truetype'), url('../fonts/SourceSansPro-SemiBold.ttf') format('truetype'), url('../fonts/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{background:#f5f5f5;
+font-family: 'Comfortaa-Light';
+    
+    font-family: 'Comfortaa-Bold';
+font-family: 'SourceSansPro-Black';
+font-family: 'Signika-Bold';
+font-family: 'Poppins-Black';
+font-family: 'Pacifico-Regular';
+font-family: 'Acme-Regular';
+font-family: 'Anton-Regular';
+font-family: 'Rubik-Black';
+font-family: 'Oxygen-Bold';
+font-family: 'Nunito-Black';
+    font-family: 'JosefinSans-Bold';
+font-family: 'Comfortaa-Regular';
+}
+
+/*-----------------------header styles------------------*/
+/*header{background-color:#39247f;}*/
+header{background-color:#fff;}
+.logo {
+    margin-left: 50px;
+    margin-top: 13px;
+    margin-bottom:10px;
+}
+.navbar-nav>li>a {line-height: 56px;color:#000;    font-family: 'Comfortaa-Bold';}
+.nav>li>a:focus, .nav>li>a:hover{background-color:#1d6597;color:#fff;}
+.navbar-toggle .icon-bar{background:#333;}
+.carousel-indicators li { display: inline-block;width: 30px;}
+.carousel-indicators .active{display: inline-block;width: 30px;}
+.footer {
+    background: #134565;
+}
+.quick_links {
+    padding: 20px 0px;
+   
+    list-style: none;
+}
+.quick_links li a span {
+    color: #eee;
+   font-family: 'SourceSansPro-Black';
+   font-size:17px;
+}
+.quick_links span {
+    color: #eee;
+   font-family: 'SourceSansPro-Black';
+   font-size:17px;
+   text-transform:uppercase;
+}
+.quick_links li a{
+    color: #7099bb;
+font-family: 'Acme-Regular';
+   font-size:14px;
+     text-transform: uppercase;
+}
+.quick_links1{
+    padding: 0px 0px !important;
+}
+.bottom-footer {
+    padding: 5px 0px;
+    background: #3d6c8a;
+}
+.bottom-footer p{
+    margin: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.bottom-footer p a{
+    color: #79e046;
+}
+.about-us{background:#fff;padding-top:50px;padding-bottom:50px;}
+.gentl-about{
+background: #fff url(../images/bc-water1.png)no-repeat center bottom;
+    background-blend-mode: darken;
+    background-position: bottom;
+    background-size: cover;
+ }
+ .about-us h1{
+    font-family: 'Comfortaa-Light';
+    color:#4CAF50;
+ }
+.about-us p{
+    font-family: 'Comfortaa-Light';
+    margin:14px 0px;
+}
+.about-uss {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Infrastructure {
+    padding-top: 50px;
+    padding-bottom: 50px;
+        background: #fff;
+}
+.rnd {
+    background: #d9edf7;
+    padding: 30px;
+}
+.infra {
+    background: #d9edf7;
+    padding: 30px;
+}
+.rnd h2{
+    color: #4CAF50;
+    font-size: 25px;
+}
+.infra h2{
+    color: #4CAF50;
+    font-size: 25px;
+}
+
+.rnd a{
+    border: 1px solid #134565;
+    padding:11px 21px;
+    /* margin-top: 7px; */
+    color: #FF5722;
+}
+.infra a{
+    border: 1px solid #134565;
+    padding: 11px 21px;
+    /* margin-top: 7px; */
+    color: #FF5722;
+}
+.rnd a:hover {
+    background: #134565;
+    text-decoration: none;
+    color: #fff;
+}
+.infra a:hover{
+    background: #134565;
+    text-decoration: none;
+    color: #fff;
+}
+.rnd p{
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.infra p{
+    margin-bottom: 25px;
+     text-align: justify;
+}
+.contact {
+    padding: 30px 0px;
+    text-align: center;
+    background: #fcf8e3;
+}
+.contact p{
+    margin: 35px 0px;
+    font-size: 24px;
+    color: #3c763d;
+}
+.contact a{
+    border: 1px solid #134565;
+    padding: 11px 21px;
+    /* margin-top: 7px; */
+    color: #FF5722;
+}
+.contact a:hover{
+    background: #134565;
+    text-decoration: none;
+    color: #fff;
+}
+.ft-logo {
+    margin-top: 30px;
+}
+.about-uss span{
+    font-size: 13px;
+    padding: 15px;
+}
+.name span:nth-child(odd) {
+    color:green;
+    font-size: 17px;
+    font-family: 'Oxygen-Bold';
+}
+.name span:nth-child(even) {
+        color: #1d6597;
+    font-size: 17px;
+        font-family: 'Poppins-Black';
+            color: #1d6597;
+}
+.name{
+    padding: 20px 0px;
+}
+.name h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.read{
+    border: 1px solid #134565;
+    padding: 11px 21px;
+    transition-delay: 0.1s;
+    color: #FF5722;
+}
+.read:hover{
+    background: #134565;
+    text-decoration: none;
+    color: #fff;
+    transition-delay: 0.1s;
+}
+.read-crs{
+    border: 1px solid #4CAF50;
+    padding: 11px 21px;
+   transition-delay: 0.1s;
+    color: #ffffff;
+}
+.read-crs:hover{
+    background: #4CAF50;
+    text-decoration: none;
+    color: #fff;
+}
+.about-uss p{
+    margin-bottom:30px;
+    text-align: justify;
+}
+.carousel-caption{
+    top:60px;
+    text-align: left;
+}
+.carousel-caption h1{
+        font-family: 'Poppins-Black';
+        font-size: 30px;
+        margin: 0px;
+}
+.carousel-caption h4{
+        font-size: 24px;
+        margin: 20px 0px;
+}
+.left, .right{
+    display:none;
+}
+/*----------------all pages in banner--------------*/
+.inn-banner{
+    background:url('../images/nback/new/products.jpg');
+    padding:100px 0px;
+    background-size:cover;
+}
+
+.inn-banner-rnd{
+    background:url('../images/nback/new/rnd.png');
+    padding:100px 0px;
+    background-size:cover;
+}
+
+
+
+
+.inn-banner h1{
+    font-size:25px;
+    color:#fff;
+}
+.inn-banner-cntct{
+    background:url('../images/aqua-banner.jpg');
+    padding:70px 0px;
+    background-size:cover;
+}
+.inn-story{
+    background:url('../images/aqua-banner.jpg');
+    padding:70px 0px;
+    background-size:cover;
+}
+.inn-story-about{
+    background:url('../images/nback/new/about_us.jpg');
+    padding:130px 0px;
+    background-size:cover;
+}
+.inn-contact{
+    background:url('../images/nback/new/contact.jpg');
+    padding:90px 0px;
+    background-size:cover;
+}
+.banner-inn h1{
+   font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+  /*  font-family: 'Poppins-Black';*/
+    font-weight: bold;
+}
+
+.banner-inn-pro h1{
+   
+    font-size: 30px;
+    color:#fff;
+    font-weight: bold;
+   font-size: 30px;
+   /* font-family: 'Poppins-Black';*/
+    font-weight: bold;
+    /* font-family: 'Comfortaa-Light'; */
+    /* font-family: 'Comfortaa-Bold'; */
+    /* font-family: 'SourceSansPro-Black'; */
+    /* font-family: 'Signika-Bold'; */
+    /* font-family: 'Poppins-Black'; */
+    /* font-family: 'Pacifico-Regular'; */
+    /* font-family: 'Acme-Regular'; */
+    /* font-family: 'Anton-Regular'; */
+    /* font-family: 'Rubik-Black'; */
+    /* font-family: 'Oxygen-Bold'; */
+    text-transform:uppercase;
+    display: inline;
+    padding: 10px 29px;
+}
+.banner-inn-pro{
+padding:50px 0px;
+    text-align:right;
+}
+.banner-inn-aboutus h1{
+   
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+   /* font-family: 'Poppins-Black';*/
+    font-weight: bold;
+    text-transform: uppercase;
+    /* font-family: 'Comfortaa-Light'; */
+    /* font-family: 'Comfortaa-Bold'; */
+    /* font-family: 'SourceSansPro-Black'; */
+    /* font-family: 'Signika-Bold'; */
+    /* font-family: 'Poppins-Black'; */
+    /* font-family: 'Pacifico-Regular'; */
+    /* font-family: 'Acme-Regular'; */
+    /* font-family: 'Anton-Regular'; */
+    /* font-family: 'Rubik-Black'; */
+    /* font-family: 'Oxygen-Bold'; */
+    padding: 10px 29px;
+    /* background: red; */
+    text-align: right;
+}
+.banner-inn-quality{
+padding:40px 0px;
+    text-align:right;
+}
+.banner-inn-quality h1{
+
+        font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+   /* font-family: 'Poppins-Black';*/
+    font-weight: bold;
+    /* display: none !important; */
+    display: inline;
+    padding: 10px 29px;
+   
+}
+.banner-inn-tech{
+    padding:50px 0px;
+    text-align:right;
+}
+.banner-inn-tech h1{
+ font-size: 30px;
+    color:#fff;
+    font-weight: bold;
+ /*   font-family: 'Poppins-Black';*/
+    font-weight: bold;
+    display: inline;
+    padding: 10px 29px;
+}
+.inn-quality {
+    background: url('../images/nback/new/quality.jpg');
+    padding:120px 0px;
+    background-size: cover;
+}
+
+.inn-astroplex{
+    padding:70px 0px;
+}
+.inn-banners{
+  background:url('../images/nback/products-pro.png');
+  background-size:cover;
+}
+.inn-banners-thanks{
+  background:url('../images/thanks.jpg');
+    background-size:cover;
+        padding: 30px 0px;
+}
+.inn-tech{
+    background:url('../images/nback/new/tech.jpg');
+    padding:100px 0px;
+    background-size:cover;
+}
+.inn-astroplex h1{
+    font-size: 32px;
+    color: #fff;
+    margin: 0px;
+    padding: 20px 0px;
+}
+.astroplex {
+    padding: 40px 0px;
+    background: #2eb670;
+}
+.astroplex h1{
+    font-size:20px;
+    color: #fff;
+}
+.banner-inn p{
+        font-size: 16px;
+    color: #f5f5f5;
+}
+
+.banner-inn p a{
+        font-size: 14px;
+    color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.inn-banner-cntct h1{
+    font-size:25px;
+    color:#fff;
+}
+.inn-story h1{
+    font-size:25px;
+    color:#fff;
+}
+.founded{
+        padding: 0px 20px;
+}
+.founded h3{
+        font-size: 14px;
+    letter-spacing: 0.2px;
+    color: black;
+    line-height: 26px;
+    margin: 0;
+    text-align: justify;
+}
+
+
+::-webkit-scrollbar {width:10px;}
+::-webkit-scrollbar-thumb {background:#1d6597;}
+::-webkit-scrollbar-thumb:window-inactive {background:#1d6597;} 
+
+::-moz-scrollbar {width:10px;}
+::-moz-scrollbar-thumb {background:#1d6597;}
+::-moz-scrollbar-thumb:window-inactive {background:#1d6597;} 
+
+.shrink{
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 4px 0px 4px 0px #ffffff;
+    transform: translateY(100%);
+    transition: transform .3s ease;
+    -webkit-transform: translateY(100%);
+    -webkit-transition: transform .3s ease;
+    top:-87px;
+    -webkit-top:-87px;
+}
+
+header{
+   transform: translateY(0);
+    transition: all .25s ease;
+    -webkit-transform: translateY(0);
+    -webkit-transition: all .25s ease;
+}
+
+/*.in .navbar-nav>li>a {
+    line-height: 21px;
+}
+.in .navbar-nav {
+    margin: 28.5px 13px;
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 8px;
+}
+.navbar-collapse.in{
+    position:absolute;
+}
+*/
+.in .navbar-nav>li>a {
+    line-height: 21px;
+    background:#4CAF50;
+}
+.collapsing .navbar-nav>li>a {
+    line-height: 21px;
+    background:#4CAF50;
+}
+.navbar-header{
+    background:#4CAF50;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.collapsing{
+    margin-right: -15px;
+    margin-left: -15px;
+     background: #4caf50;
+}
+.navbar-collapse.in {
+    overflow-y: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #4caf50;
+}
+
+.inn-contact-div {
+    background: #d9edf7;
+    text-align: center;
+    padding: 20px 0px;
+      
+}
+.div1{padding-bottom: 138px;}
+.div2{padding-bottom: 110px;}
+
+.get-in {
+    padding-bottom: 40px;
+}
+.inn-contact-div i {
+   font-size: 34px;
+    border: 1px solid #4CAF50;
+    border-radius: 96px;
+    padding: 21px 0px;
+    height: 80px;
+    width: 82px;
+    color: #4CAF50;
+    background: #fff;
+    webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    -o-transform: scale(0.93);
+    vertical-align: bottom;
+}
+.inn-contact-div i:hover{
+    background:#4CAF50;
+    color:#fff;
+}
+.get-message{
+    margin: 70px 0px;
+}
+.get-in h1{
+        font-size:25px;
+}
+.cnt-button {
+    margin-top: 11px;
+}
+.get-message h1{
+    font-size:25px;
+}
+.inn-contact-div h3{
+
+margin: 14px 0px;
+    font-size: 20px;
+}
+.inn-contact-div p{
+  font-size: 14px;
+}
+.inn-contact-div span{
+    color: #777;
+    font-size: 12px;
+}
+
+.inn-products{
+    padding: 30px 0px;
+    background:#fff;
+}
+.product_img{
+    background: #f0efef;
+    padding: 18px;
+        height: 278px;
+}
+
+.product_div {
+    padding: 45px 19px;
+    background: #bfe6f9;
+    border: 1px solid #bfe6f9;
+    border-left: 0px;
+     height: 278px;
+}
+.product_div h3{
+   text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.paddinglft{
+    padding-left:0px
+}
+.paddingrgt{
+    padding-right:0px;
+}
+.paddingtp{
+    padding-top:20px;
+}
+.banner-inn{
+    padding:50px 0px;
+    text-align:right;
+}
+.banner-innpro{
+    padding:50px 0px;
+    text-align:center;
+}
+.banner-innpro p{
+    color: #fff;
+}
+.banner-inn h3{
+   font-size: 15px;
+    margin: 0;
+    color: #fff;
+    padding: 10px;
+}
+.founded h1{
+    font-size:26px;
+    margin: 0px;
+    margin-bottom:10px;
+        color: #00a651;
+}
+.loader img{
+    margin-top:100px;
+}
+.loader{
+    background:#fff;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:999;
+bottom: 0;
+text-align:center;
+color:#fff;
+}
+.product_div p{
+    margin: 10px 0px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#enquire {
+    text-align: left;
+}
+.error {
+    color:red;
+}
+
+.active{
+    background-color:#1d6597;color:#fff;
+    color:#fff !important;
+}
+
+@media all and (max-width: 1920px){}
+@media all and (max-width: 1600px){}
+@media all and (max-width: 1366px){}
+@media all and (max-width: 1280px){}
+@media all and (max-width: 1024px){}
+@media all and (max-width: 995px){
+    .shrink {
+   -webkit-top: -172px;
+    top: -172px;
+}
+}
+@media all and (max-width: 768px){
+    .paddingrgt {
+        padding-right: 15px;
+    }
+    .paddinglft {
+        padding-left: 15px;
+    }
+    .shrink {
+   -webkit-top: -87px;
+    top: -140px;
+}
+}
+@media all and (max-width: 767px){}
+@media all and (max-width: 600px){}
+@media all and (max-width: 479px){}
+@media all and (max-width: 320px){}
