@@ -1,5 +1,8 @@
-"# first-node-pro" 
-Learn through this project routes creation, inserting data in mongo db and sql, and e-mail sending on form submiting, page redirecting
+"# Node mailer" 
+"# form submition in node js" 
+"# mongodb connection with node js" 
+"# sql connection with node js" 
+routes creation, inserting data in mongo db and sql, and e-mail sending on form submiting, page redirecting
 
 
 <h3>dowload</h3>
